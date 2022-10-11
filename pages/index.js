@@ -17,12 +17,12 @@ export default function Home() {
             <img src='Pharos.jpg' className=' h-28 w-28 m-7'></img>
           </div>
           <div>
-            <p className=' m-2 mr-16 via-blue-600 font-bold text-xl text-green-900 lg:text-5xl '> منصة جامعة فاروس القانونيه</p>
+            <p className=' m-2  via-blue-600 font-bold text-xl text-green-900 lg:text-5xl '> منصة جامعة فاروس القانونيه</p>
           </div>
         </div>
         
-        <div className=' self-center mt-7 '>
-          <p className=' font-semibold font-serif text-lg align-middle'>يسعدنا استقبال الشكاوي من حضراتكم علي هذه المنصة </p>
+        <div className=' self-end mt-7 p-3 '>
+          <p className=' font-semibold font-serif text-lg '>يسعدنا استقبال الشكاوي من حضراتكم علي هذه المنصة </p>
         </div>
         <form className=' flex flex-col m-4'  >
 
@@ -62,9 +62,9 @@ export default function Home() {
             </div>
 
           </div>
-          <div className=' flex bg-slate-300 mt-5 p-7 rounded-md'>
+          <div className=' flex bg-slate-300 mt-5 p-7 rounded-md flex-col'>
             <label for='claim'>Your Calim:</label>
-            <input type='text' name='claim' id='claim' className=' w-full rounded-xl p-2 text-center border-none m-4 h-16 text-slate-700 ' ></input>
+            <input type='text' name='claim' id='claim' className=' rounded-xl p-2 text-center border-none m-4 h-16 text-slate-700 w-full ' ></input>
           </div>
           <div className='self-center mt-12 bg-black text-yellow-200 rounded-md '>
             <button className='p-5 rounded-xl text-center font-extrabold' >Apply</button>
