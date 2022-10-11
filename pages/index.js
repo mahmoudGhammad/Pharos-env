@@ -128,7 +128,7 @@ export default function Home() {
       </main>
 
       <footer >
-        
+        <p className=' text-xs  text-white bg-blue-600 p-5 rounded-lg  w-fit mb-3 font-bold'>Made By: Saad Adel</p>
       </footer>
     </div>
   )
