@@ -13,11 +13,11 @@ export default function Home() {
 
       <main className=' flex flex-col justify-items-stretch'>
         <div className=' flex flex-row items-center justify-between shadow-lg mb-9'>
-          <div>
+          <div className=' m-2'>
             <img src='Pharos.jpg' className=' h-28 w-28 m-7'></img>
           </div>
           <div>
-            <p className=' mr-16 via-blue-600 font-bold text-xl text-green-900 lg:text-5xl '> منصة جامعة فاروس القانونيه</p>
+            <p className=' m-2 mr-16 via-blue-600 font-bold text-xl text-green-900 lg:text-5xl '> منصة جامعة فاروس القانونيه</p>
           </div>
         </div>
         
