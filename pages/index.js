@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         
         <div className=' self-end mt-7 p-3 '>
-          <p className=' font-semibold font-serif text-lg '>يسعدنا استقبال الشكاوي من حضراتكم علي هذه المنصة </p>
+          <p className=' font-semibold font-serif text-xs lg:text-lg '>يسعدنا استقبال الشكاوي من حضراتكم علي هذه المنصة </p>
         </div>
         <form className=' flex flex-col m-4'  >
 
