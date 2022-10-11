@@ -25,7 +25,7 @@ export default function Home() {
 
      console.log(firstName.length);
      let data={}
-     if(firstName.length != "" & lastname.length != "" & phonenum != ''){
+     if(firstName.length != "" & lastname.length != "" & phonenum != '' & claimU != '' ){
       let data = {
           ffname : firstName ,
           llname : lastname ,
