@@ -11,13 +11,13 @@ export default function Home() {
         <link rel="icon" href="/Pharos.jpg" />
       </Head>
 
-      <main className=' flex flex-col justify-items-stretch  '>
+      <main className=' flex flex-col justify-items-stretch'>
         <div className=' flex flex-row items-center justify-between shadow-lg mb-9'>
           <div>
             <img src='Pharos.jpg' className=' h-28 w-28 m-7'></img>
           </div>
           <div>
-            <p className=' mr-16 via-blue-600 font-bold text-6xl text-green-900'> منصة جامعة فاروس القانونيه</p>
+            <p className=' mr-16 via-blue-600 font-bold text-xl text-green-900 lg:text-5xl '> منصة جامعة فاروس القانونيه</p>
           </div>
         </div>
         
@@ -27,7 +27,7 @@ export default function Home() {
         <form className=' flex flex-col m-4'  >
 
 
-          <div className=' flex flex-row bg-slate-300 rounded-md'>
+          <div className=' flex  bg-slate-300 rounded-md flex-col lg:flex-row '>
 
             <div className=' bg-slate-300 p-4 w-1/2 rounded-md'>
                <label for="fname" >First name:</label>
