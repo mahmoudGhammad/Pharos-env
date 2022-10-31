@@ -83,12 +83,13 @@ export default function Home() {
             <img src='Pharos.jpg' className=' h-28 w-28 m-7'></img>
           </div>
           <div>
-            <p className=' m-2  via-blue-600 font-bold text-xl text-green-900 lg:text-5xl '> منصة جامعة فاروس القانونيه</p>
+            <p className=' m-2  via-blue-600 font-bold text-xl text-green-900 lg:text-5xl '> Pharos University </p>
           </div>
         </div>
         
-        <div className=' self-end mt-7 p-3 '>
-          <p className=' font-semibold font-serif text-xs lg:text-lg '>يسعدنا استقبال الشكاوي من حضراتكم علي هذه المنصة </p>
+        <div className=' self-end mt-7 p-3 flex flex-col w-full '>
+          <p className=' text-sm font-bold font-serif lg:text-2xl self-center shadow-md p-5 m-3'> منصة جامعة فاروس القانونيه لحماية البيئة  </p>
+          <p className=' font-semibold font-serif text-xs lg:text-lg self-end'>يسعدنا استقبال الشكاوي من حضراتكم علي هذه المنصة </p>
         </div>
         <form className=' flex flex-col m-4'  >
 
@@ -150,7 +151,7 @@ export default function Home() {
       </main>
 
       <footer >
-        <p className=' text-xs  text-white bg-blue-600 p-5 rounded-lg  w-fit mb-3 font-bold'>Made By: Saad Adel</p>
+        <p className=' text-xs shadow-md  p-5 rounded-lg  w-fit mb-7 font-bold'> Made Possible by: Prof. Dr. Ahmed Samir Nasser</p>
       </footer>
     </div>
   )
