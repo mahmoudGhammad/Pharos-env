@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 
-import {React , useRef} from 'react'
+import {React , useRef , useState} from 'react'
 
 import { db } from '../firebase'
 
@@ -10,11 +10,20 @@ import {doc , setDoc , addDoc , getFirestore, collection , }from 'firebase/fires
 
 export default function Home() {
 
+
+
+  const [file, setFile] = useState("");
+ 
+    // Handles input change event and updates state
+    function handleChange(event) {
+        setFile(event.target.files[0]);}
+
   
   const fName = useRef(null)
   const lName = useRef(null)
   const mNumber = useRef(null)
   const claim = useRef(null)
+  const pic   = useRef(null)
 
   function subForm (e) {
       e.preventDefault()
@@ -22,6 +31,7 @@ export default function Home() {
      let lastname = lName.current.value
      let phonenum = mNumber.current.value
      let claimU = claim.current.value
+     let pict = pic.current.value
 
      console.log(firstName.length);
      let data={}
@@ -31,6 +41,7 @@ export default function Home() {
           llname : lastname ,
           ppnumber : phonenum ,
           claimUm : claimU,
+          picture  : pict ,
 
       }
       //********************************************************************************************************* */
@@ -42,6 +53,7 @@ export default function Home() {
           llname : lastname ,
           ppnumber : phonenum ,
           claimUm : claimU,
+          picture : pict, 
 
 
       })
@@ -120,6 +132,16 @@ export default function Home() {
             <label for='claim'>Your Calim:</label>
             <input ref={claim} type='text' name='claim' id='claim' className=' rounded-xl p-2 text-center border-none m-4 h-16 text-slate-700 w-full ' ></input>
           </div>
+
+
+          <div className=' self-center mt-7'>
+          <input ref={pic} type="file" accept="image/*"  className=' text-slate-800 bg-slate-300'/>
+          
+          </div>
+          
+
+
+
           <div className='self-center mt-12 bg-black text-yellow-200 rounded-md '>
             <button onClick={subForm} className='p-5 rounded-xl text-center font-extrabold' >Apply</button>
           </div>
