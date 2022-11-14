@@ -64,6 +64,8 @@ export default function Home() {
       lName.current.value = ''
       mNumber.current.value = ''
       claim.current.value =''
+      alert('تم ارسال طلبك بنجاح')
+
      }else {
          alert('يجب ملئ جميع البيانات ')
      }
