@@ -34,7 +34,7 @@ export default function Home() {
             </div>
 
             < div className=' flex flex-col' >
-                <HomeBody />
+                {/* <HomeBody /> */}
                 <HomeFooter /> 
               
             </div>
