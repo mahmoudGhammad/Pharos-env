@@ -29,9 +29,11 @@ export default function Home() {
        <NavBar/>
        <div className="  w-full h-screen flex  flex-col">
 
-            <div >
-              <p className=' text-sm font-bold font-serif lg:text-2xl self-center align-middle shadow-md p-5 m-3'> منصة جامعة فاروس القانونيه لحماية البيئة  </p>   
+            <div  className='flex  w-screen'>
+              <p className=' text-sm font-bold font-serif lg:text-2xl items-start shadow-md p-5 m-3'> منصة جامعة فاروس القانونيه لحماية البيئة  </p>   
             </div>
+
+            <img src='/4.jfif' className=' w-fit self-center rounded-lg'></img>
 
             < div className=' flex flex-col' >
                 {/* <HomeBody /> */}
