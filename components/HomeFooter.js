@@ -17,7 +17,7 @@ function HomeFooter() {
         </div>  
 
         <div className=' self-start'>
-        <p className=' text-xs shadow-md  p-5 rounded-lg w-fit  mb-7 font-bold'> Made Possible by: Prof. Dr. Ahmed Samir Nasser</p>
+         <p className=' text-xs shadow-md  p-5 rounded-lg w-fit  mb-7 font-bold'> Made Possible by: Prof. Dr. Ahmed Samir Nasser</p>
         </div>
     </div>
   )
