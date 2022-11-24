@@ -4,7 +4,9 @@ function HomeBody() {
   return (
     <div className="bg-[url('/4.jfif')] h-fit w-fit p-8 mt-8 ">
 
-      <p className=' font-extrabold font-mono text-end text-xl text-red backdrop-blur-sm bg-white/30'>
+      <p className=' font-extrabold font-mono text-end text-xl text-red backdrop-blur-sm bg-white/30'> !البيئه عنوان اصحابها فمتي نحافظ علي عنواننا </p>
+
+      {/* <p className=' font-extrabold font-mono text-end text-xl text-red backdrop-blur-sm bg-white/30'>
                           البيئه عنوان اصحابها فمتي نحافظ علي عنواننا !
 
 
@@ -30,7 +32,7 @@ function HomeBody() {
                     ويعاقب بغرامة لا تقل عن خمسين ألف جنيه ولا تزيد على مليون جنيه كل من يخالف أحكام المادتين 19، 23 من هذا القانون .
                     وفى حالة العود يضاعف الحدان الادنى والأقصى للغرامة والحد الاقصى لعقوبة الحبس .
                     وفضلا عن العقوبات الأصلية السابقة يجوز الحكم بغلق المنشأة وإلغاء الترخيص الصادر لها     أو وقف النشاط المخالف"
-      </p>
+      </p> */}
         
     </div>
   )
