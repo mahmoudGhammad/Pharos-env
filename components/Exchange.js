@@ -27,17 +27,17 @@ export default function Exchange() {
   function subForm (e) {
       e.preventDefault()
      let firstName = fName.current.value
-     let lastname = lName.current.value
+    //  let lastname = lName.current.value
      let phonenum = mNumber.current.value
      let claimU = claim.current.value
      let pict = pic.current.value
   
      console.log(firstName.length);
      let data={}
-     if(firstName.length != "" & lastname.length != "" & phonenum != '' & claimU != '' ){
+     if(firstName.length != "" & phonenum != '' & claimU != '' ){
       let data = {
           ffname : firstName ,
-          llname : lastname ,
+          // llname : lastname ,
           ppnumber : phonenum ,
           claimUm : claimU,
           picture  : pict ,
@@ -49,7 +49,7 @@ export default function Exchange() {
       addDoc(dataRef , {
   
           ffname : firstName ,
-          llname : lastname ,
+          // llname : lastname ,
           ppnumber : phonenum ,
           claimUm : claimU,
           picture : pict, 
@@ -60,7 +60,7 @@ export default function Exchange() {
      //******************************************************************************************* */
       console.log(data);
       fName.current.value = ''
-      lName.current.value = ''
+      // lName.current.value = ''
       mNumber.current.value = ''
       claim.current.value =''
       alert('تم ارسال طلبك بنجاح')
