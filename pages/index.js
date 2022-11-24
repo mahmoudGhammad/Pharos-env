@@ -27,16 +27,16 @@ export default function Home() {
         
       </Head>
        <NavBar/>
-       <div className="  w-full h-screen flex  flex-col">
+       <div className="  w-full h-screen flex  flex-col flex-1">
 
-            <div  className='flex  w-screen'>
-              <p className=' text-sm font-bold font-serif lg:text-2xl items-start shadow-md p-5 m-3'> منصة جامعة فاروس القانونيه لحماية البيئة  </p>   
+            <div  className=' w-fit self-end'>
+              <p className=' text-sm font-bold font-serif lg:text-2xl  shadow-md p-5 m-3 mt-10'> منصة جامعة فاروس القانونيه لحماية البيئة  </p>   
             </div>
 
-            <img src='/4.jfif' className=' w-fit self-center rounded-lg'></img>
+            
 
-            < div className=' flex flex-col' >
-                {/* <HomeBody /> */}
+            < div className=' flex flex-col ' >
+                <HomeBody />
                 <HomeFooter /> 
               
             </div>
