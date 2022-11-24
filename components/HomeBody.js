@@ -2,9 +2,9 @@ import React from 'react'
 
 function HomeBody() {
   return (
-    <div className="bg-[url('/4.jfif')] h-fit w-fit p-8 mt-8 ">
+    <div className=" flex bg-[url('/4.jfif')]  w-screen min-h-full p-8 mt-8 justify-center">
 
-      <p className=' font-extrabold font-mono text-end text-xl text-red backdrop-blur-sm bg-white/30'> !البيئه عنوان اصحابها فمتي نحافظ علي عنواننا </p>
+      <p className=' font-extrabold font-mono  text-xl text-red backdrop-blur-sm bg-white/30 text-center'> !البيئه عنوان اصحابها فمتي نحافظ علي عنواننا </p>
 
       {/* <p className=' font-extrabold font-mono text-end text-xl text-red backdrop-blur-sm bg-white/30'>
                           البيئه عنوان اصحابها فمتي نحافظ علي عنواننا !

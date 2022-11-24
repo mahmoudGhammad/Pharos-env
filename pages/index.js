@@ -26,25 +26,29 @@ export default function Home() {
 
         
       </Head>
-       <NavBar/>
-       <div className="  w-full h-screen flex  flex-col flex-1">
+      <div className=' h-screen'>
 
-            <div  className=' w-fit self-end'>
-              <p className=' text-sm font-bold font-serif lg:text-2xl  shadow-md p-5 m-3 mt-10'> منصة جامعة فاروس القانونيه لحماية البيئة  </p>   
-            </div>
+          <NavBar/>
+          <div className="  w-full h-screen flex  flex-col flex-1">
 
-            
+                <div  className=' w-fit self-end'>
+                  <p className=' text-sm font-bold font-serif lg:text-2xl  shadow-md p-5 m-3 mt-10'> منصة جامعة فاروس القانونيه لحماية البيئة  </p>   
+                </div>
 
-            < div className=' flex flex-col ' >
-                <HomeBody />
-                <HomeFooter /> 
-              
-            </div>
+                
+                < div className=' flex flex-col ' >
+                    <HomeBody />
+                    <HomeFooter /> 
+                  
+                </div>
 
        </div>
       
 
 
+
+      </div>
+      
 
       
       
