@@ -86,7 +86,7 @@ export default function Calim() {
       <div className=' flex  bg-slate-300 rounded-md flex-col lg:flex-row '>
 
         <div className=' bg-slate-300 p-4 w-1/2 rounded-md'>
-           <label for="fName" >Name:</label>
+           <label for="fName" >الاسم:</label>
            <input ref={fName} type='text' id='fName' name='fName' 
             className=' rounded-full m-4 h-10 w-fit text-center text-slate-700 '
       
@@ -96,7 +96,7 @@ export default function Calim() {
 
         </div>
         <div className=' bg-slate-300 p-4 w-1/2' >
-           <label for="lname">National ID:</label>
+           <label for="lname">الرقم القومي:</label>
            <input ref={lName} type='text' id='lName' name='lName' 
               className=' rounded-full m-4 h-10 w-fit text-slate-700 text-center'
       
@@ -107,7 +107,7 @@ export default function Calim() {
         </div>
 
         <div className=' bg-slate-300 p-4 w-1/2 rounded-md'>
-           <label for="mNumber">Mobile Number:</label>
+           <label for="mNumber">رقم الهاتف:</label>
            <input  ref={mNumber} type='text' id='mNumber' name='mNumber' 
               className=' rounded-full m-4 h-10 w-fit text-slate-700 text-center'
       
@@ -119,7 +119,7 @@ export default function Calim() {
 
       </div>
       <div className=' flex bg-slate-300 mt-5 p-7 rounded-md flex-col'>
-        <label for='claim'>Your Calim:</label>
+        <label for='claim'>الشكوي :</label>
         <input ref={claim} type='text' name='claim' id='claim' className=' rounded-xl p-2 text-center border-none m-4 h-16 text-slate-700 w-full ' ></input>
       </div>
 
@@ -133,7 +133,7 @@ export default function Calim() {
 
 
       <div className='self-center mt-12 bg-black text-yellow-200 rounded-md '>
-        <button onClick={subForm} className='p-5 rounded-xl text-center font-extrabold' >Apply</button>
+        <button onClick={subForm} className='p-5 rounded-xl text-center font-extrabold' >تقديم </button>
       </div>
      
     </form>
